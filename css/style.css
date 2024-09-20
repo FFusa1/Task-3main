@@ -71,7 +71,7 @@
 }
 /* main body */
 .container{
-    border-left: 100px;
+    padding: 2rem;
     }
 
 .slider-wrapper{
@@ -118,3 +118,4 @@ gap: 20px;
 .slider-nav a:hover{
     opacity: 1;
 }
+
