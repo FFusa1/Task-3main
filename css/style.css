@@ -1,6 +1,6 @@
 /* header */
 *{
-    width: auto;
+    width: 100%;
 }
 .photonews{
     width: 400px;
@@ -22,8 +22,8 @@
     color:aliceblue;
     text-decoration: none;
     padding: 15px;
-    display: block;
-    width: 150px;
+    display:inline;
+    width: 100px;
     margin-left: 45px;
     font-size: large;
     font-style:inherit;
@@ -49,7 +49,7 @@
     width: 50%;
     align-items: start;
     margin-left: 60px;
-    width: 1200px;
+    width: 100px;
 }
 .information2{
     display: flex;
@@ -59,7 +59,7 @@
     color: rgb(112, 47, 30);
     width: 50%;
     margin-left:180px;
-    width: 1200px;
+    width: 100px;
 }
 .information3{
     display: flex;
@@ -70,7 +70,7 @@
     width: 50%;
     align-items: start;
     margin-left: 60px;
-    width: 1200px;
+    width: 100px;
 }
 
 .info2{
