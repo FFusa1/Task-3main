@@ -1,5 +1,10 @@
-
-
+/* header */
+*{
+    width: auto;
+}
+.photonews{
+    width: 400px;
+}
 .navbar ul{
     list-style-type: none ;
     background-color: rgb(41, 29, 2);
@@ -20,6 +25,8 @@
     display: block;
     width: 150px;
     margin-left: 45px;
+    font-size: large;
+    font-style:inherit;
 }
 
 .navbar a:hover{
@@ -30,4 +37,42 @@
     width: 300px;
     margin: 0px;
     padding: 0%;
+}
+
+/* main information */
+.information{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: bisque;
+    color: rgb(112, 47, 30);
+    width: 50%;
+    align-items: start;
+    margin-left: 60px;
+    width: 1200px;
+}
+.information2{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: bisque;
+    color: rgb(112, 47, 30);
+    width: 50%;
+    margin-left:180px;
+    width: 1200px;
+}
+.information3{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: bisque;
+    color: rgb(112, 47, 30);
+    width: 50%;
+    align-items: start;
+    margin-left: 60px;
+    width: 1200px;
+}
+
+.info2{
+    margin-left: 20px;
 }
