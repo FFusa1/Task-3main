@@ -6,8 +6,8 @@
 }
 /* Header */
 a:link{
-color:#ffffff;
 text-decoration: none;
+font-family: "Times New Roman", Times, serif
 }
 
 .logophoto{
@@ -43,7 +43,7 @@ align-items: center;
 }
 
 .list_item{
-  border-radius: 25px;
+  border-radius: 10px 50px 10px;
   border: 2px solid #b95b24;
   padding: 10px;
   width: auto;
