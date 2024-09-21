@@ -1,12 +1,10 @@
 /* Nav bar */
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -19,20 +17,17 @@
     border: 0px;
     padding: 0px;
 }
-
 .navbar ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .navbar ul li{
     list-style: none;
     position: relative;
     margin: 0px 10px;
     padding: 0px 2px;
 }
-
 .navbar ul li a{
     color:#a84f4f;
     text-decoration: none;
@@ -49,7 +44,7 @@
     background: linear-gradient(to right, #855555, #855555);
     transform: scaleX(0);
     transform-origin:bottom right;
-    transition:transform 0.4s ease-in-out
+    transition:transform 0.4s ease-in-out 
 }
 .navbar ul li a:hover::before{
     transform: scaleX(1);
@@ -72,14 +67,12 @@
 /* main body */
 .container{
     padding: 2rem;
-    }
-
+}
 .slider-wrapper{
-        position: relative;
-        max-width: 50rem;
-        margin: 0 auto;
-    }
-
+    position: relative;
+    max-width: 50rem;
+    margin: 0 auto;
+}
 .slider{
     display:flex;
     aspect-ratio: 16 / 9;
@@ -96,16 +89,15 @@
     object-fit: cover;
 }
 .slider-nav{
-display: flex;
-column-gap: 1ram;
-position: absolute;
-bottom: 1.25rem;
-left: 50%;
-transform: translateX(-50%);
-z-index: 1;
-gap: 20px;
+    display: flex;
+    column-gap: 1ram;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    gap: 20px;
 }
-
 .slider-nav a{
     width: 1rem;
     height: 1rem;
@@ -114,30 +106,24 @@ gap: 20px;
     opacity: 0.75;
     transition: opaciti ease 250ms;
 }
-
 .slider-nav a:hover{
     opacity: 1;
 }
-
 .slider-wrapper{
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 75px;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
 }
-
 .image-text{
-width: 450px;
-position: relative;
+    width: 450px;
+    position: relative;
 }
-
 img{
     display: block;
     margin: auto;
 }
-
 .content{
     width: 100%;
     height: 100%;
@@ -157,20 +143,18 @@ img{
 }
 .content h1{
     font-size: 42px;
-   color: #ff84;
-   margin-bottom: 10px;
+    color: #ff84;
+    margin-bottom: 10px;
 }
 .content p{
     font-size: 21px;
     font-weight: bold;
     color: #fff;
 }
-
 .content > *{
     transform:translateY(25px) ;
     transition:transform 0.6s;
 }
-
 .content:hover >*{
-    transform:translateY(0px)
+    transform:translateY(0px) 
 }
